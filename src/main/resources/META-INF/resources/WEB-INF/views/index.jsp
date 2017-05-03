@@ -27,7 +27,7 @@
 			url: "polling",
 			success: function(mensagem) {
 				if(mensagem.text != null)
-					$("#mensagens").append($("#user").val() + ": "+ mensagem.text + "<br>");
+					$("#mensagens").append(mensagem.text + "<br>");
 				
 				poll();
 			},
@@ -44,7 +44,7 @@
 			cache: false,
 			contentType: "application/json",
 			url: "polling",
-			data: JSON.stringify({ "text" : $("#text").val() })
+			data: JSON.stringify({ "text" : $("#user").val() + ":"+ $("#text").val() })
 		});
 	}
 	
