@@ -27,7 +27,8 @@
 			url: "polling",
 			success: function(mensagem) {
 				if(mensagem.text != null)
-					$("#mensagens").append(mensagem.text + "<br>");
+					$("#mensagens").append($("#user").val() + ": "+ mensagem.text + "<br>");
+				
 				poll();
 			},
 			error: function(err) { 
