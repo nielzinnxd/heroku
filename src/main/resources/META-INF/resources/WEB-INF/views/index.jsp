@@ -8,7 +8,7 @@
 </head>
 <body>
 <fieldset>
-	<legend>MENSAGENS:</legend>
+	<legend>CHAT:</legend>
 	<div id="mensagens"></div>
 </fieldset>
 <br>
