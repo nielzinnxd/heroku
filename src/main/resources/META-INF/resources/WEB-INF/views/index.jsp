@@ -13,7 +13,7 @@
 </fieldset>
 <br>
 <div>
-	Usuário: <input type="text" id="text">
+	Usuário: <input type="text" id="user">
 	Texto: <input type="text" id="text">
 	<button onclick="enviar()">Enviar</button>
 </div>
