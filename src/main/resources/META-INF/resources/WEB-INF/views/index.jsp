@@ -44,8 +44,9 @@
 			cache: false,
 			contentType: "application/json",
 			url: "polling",
-			data: JSON.stringify({ "text" : $("#user").val() + ":"+ $("#text").val() })
+			data: JSON.stringify({ "text" : $("#user").val() + ": "+ $("#text").val() })
 		});
+		$("#user").prop( "disabled", true );
 	}
 	
 </script>
