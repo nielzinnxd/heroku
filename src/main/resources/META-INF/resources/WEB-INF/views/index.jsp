@@ -9,8 +9,16 @@
 </head>
 <body>
 <fieldset>
-	<legend>CHAT:</legend>
-	<div id="mensagens"></div>
+	
+	<div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">CHAT</h3>
+            </div>
+            <div class="panel-body">
+             <div id="mensagens"></div>
+            </div>
+         </div>
+	
 </fieldset>
 <br>
 <div>
