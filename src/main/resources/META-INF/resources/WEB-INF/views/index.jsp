@@ -8,7 +8,7 @@
 </head>
 <body>
 <fieldset>
-	<legend>Mensagens</legend>
+	<legend>MENSAGENS:</legend>
 	<div id="mensagens"></div>
 </fieldset>
 <br>
